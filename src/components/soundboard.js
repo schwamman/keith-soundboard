@@ -11,6 +11,7 @@ class Soundboard extends React.Component {
               <Button 
                 name={audio.name}
                 filepath={audio.filepath}
+                playAudio={this.props.playAudio}
               />
             ))
           }

@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Olympic";
+  src: url('./assets/olympic_carrier/olympiccarrierhalfital.ttf');
+}
+
+h1 {
+  font-family: 'Olympic';
+}
