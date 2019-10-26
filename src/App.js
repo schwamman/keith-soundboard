@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import Header from './components/header';
 import Soundboard from './components/soundboard';
 import audio from './data/audio';
