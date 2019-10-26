@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from './button';
+import UIfx from 'uifx';
 
 class Soundboard extends React.Component {
   render() {
@@ -10,8 +11,8 @@ class Soundboard extends React.Component {
             this.props.audioFiles.map(audio => (
               <Button 
                 name={audio.name}
-                filepath={audio.filepath}
-                playAudio={this.props.playAudio}
+                sound={new UIfx(audio.filepath)}
+                //playAudio={this.props.playAudio}
               />
             ))
           }

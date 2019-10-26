@@ -10,7 +10,7 @@ class Button extends React.Component {
 
   render() {
     return(
-     <button id={`${this.props.name}-button`} onClick={() => this.playAudio(this.props.filepath)}>{this.props.name}</button>
+     <button id={`${this.props.name}-button`} onClick={() => this.props.sound.play()}>{this.props.name}</button>
     )
   }
 }
