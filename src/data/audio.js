@@ -34,6 +34,10 @@ let audio = [
   {
     name: 'Soundboard Part 2',
     filepath: 'https://keith-audio.s3.us-east-2.amazonaws.com/soundboard-part-2.mp3'
+  },
+  {
+    name: 'LSD',
+    filepath: 'https://keith-audio.s3.us-east-2.amazonaws.com/ripped-on-lsd.mp3'
   }
 ]
 
